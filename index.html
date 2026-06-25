@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <title>مركز جويرية</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><img src="Photos/Logo (1).png" alt="Logo"></div>
+            <div class="Tabs">
+                <a href="#Home_page">الصفحة الرئيسية</a>
+                <a href="#About-us">معلومات عنا</a>
+                <a href="#Services">الخدمات</a>
+                <a href="#Contact">التواصل معنا </a>
+            </div>
+            <button class="Btn">إنشاء حساب </button>
+        </div>
+    </header>
+    <section class="Hero">
+        <div class="Hero_Right">
+            <h3>مرحبا في موقع جويرية</h3>
+            <h1>طريقة أفضل <br>لراحتك النفسية
+            </h1>
+            <p>يمكننك حجز جلستك داخل المركز ومتابعة معادها للحضور في موعدها
+                والتاكد من تواجد الطبيب داخل العيادة لعدم اضاعة الوقت في الانتظار
+            </p>
+            <button class="Btn-2">احجز الان</button>
+        </div>
+        <div class="Hero_left">
+            <img src="Photos/Hero_img.png" alt="a doctor talking with patient">
+        </div>
+    </section>
+    <section class="P2">
+        <div class="card">
+            <img src="Photos/card-1.png" alt="lOGO of Note">
+            <h4>الجلسات المحجوزة</h4>
+            <p>يمكنك الاطلاع على الكشوفات الحالية لمعرفة مدة انتظاره قبل واثناء الجلسة لتحسين الخدمة</p>
+        </div>
+        <div class="card">
+            <img src="Photos/card-2.png" alt="a sheet of paper">
+            <h4>الفواتير</h4>
+            <p>يمكنك الاستعلام عن
+                الحسابات اليومية للمركز
+            </p>
+        </div>
+        <div class="card">
+            <img src="Photos/card-3.png" alt="clock">
+            <h4>سجل الجلسات</h4>
+            <p>يمكن لمسؤول المركز
+                مراجعة حجوزات الشهر
+            </p>
+        </div>
+        <div class="card">
+            <img src="Photos/card-4.png" alt="a person ">
+            <h4>بيانات المرضى</h4>
+            <p>يمكنك الاطلاع على ملف المريض
+                لمعرفة مدة انتظاره قبل واثناء الجلسة لتحسين الخدمة
+            </p>
+        </div>
+    </section>
+    <section class="About-us" id="About-us">
+        <div class="about-us-img"><img src="Photos/About-Us.png" alt="a doctor">
+        </div>
+        <div class="about-us-left">
+            <h5>معلومات عنا</h5>
+            <h2>نحن نقدم خدمة رائعة في الجلسات النفسية والاسرية والتربوية</h2>
+            <p>استشاري العلاقات الأسرية والتربوية استشاري معتمد من المعهد العربي للصحة
+                النفسية اخصائي الصحة النفسية المعتمدة من جامعة عين شمس دبلوم العلاج
+                المعرفي السلوكي والعلاج بالقبول
+            </p>
+            <button class="Btn">لمعرفة الميزيد</button>
+        </div>
+    </section>
+    <section class="Services" id="Services">
+        <div class="reservation-right">
+            <h2>مواعيد المركز</h2>
+            <p>يمكنك معرفة المواعيد المناسبة للمركز لتجنب الحجز في اوقات غير ملائمة
+                من الساعة الثانية عشر ظهرا الى التاسعة مساءا</p>
+        </div>
+        <div class="reservation-Left">
+            <h2>احجز الان</h2>
+            <p>يمكنك الان حجز جسلتك من خلال اختيارك للمعاد المناسب
+                طبقا لمواعيد عمل المركز واختيار مدة الجلسة المناسبة لك
+            </p>
+            <div class="How">
+                <div class="labeles">
+                    <label for="day">معاد الجلسة</label>
+                    <select class="day" name="day">
+                        <option>السبت</option>
+                        <option>الأحد</option>
+                        <option>الاثنين</option>
+                        <option>الثلاثاء</option>
+                        <option>الأربعاء</option>
+                        <option>الخميس</option>
+                        <option>الجمعة</option>
+                    </select>
+                </div>
+                <div class="Time">
+                    <h3>مدة الجلسة</h3>
+                    <input type="checkbox" id="check">
+                    <label for="check">ساعة</label>
+                    <input type="checkbox" id="check">
+                    <label for="check">ساعتين</label>
+                </div>
+                <div class="Site">
+                    <h3>طريقة الحضور</h3>
+                    <input type="checkbox" id="check">
+                    <label for="check">اونلاين</label>
+                    <input type="checkbox" id="check">
+                    <label for="check">اوفلاين</label>
+                </div>
+                <button class="Btn-4">تأكيد الحجز</button>
+
+            </div>
+        </div>
+    </section>
+    <footer id="Contact">
+        <div class="Logo">
+            <img src="Photos/Main-Logo.png" alt="">
+        </div>
+        <div class="mid">
+            <div class="address">
+                <h6>العنوان:</h6>
+                <hr>
+                <p>المنيا - شارع طه حسين - بجوار كشري العمدة.</p>
+            </div>
+            <div class="Numbers">
+                <h6>تواصل معنا:</h6>
+                <hr>
+                <p>
+                    9201 72 1153 20+
+                </p>
+                <p>
+                    6666 525 112 20+
+                </p>
+                <p>
+                    6666 525 112 20+
+                </p>
+            </div>
+        </div>
+        <div class="left">
+            <div class="Hours">
+                <h6>مواعيد العمل:</h6>
+                <hr>
+                <p>من الاحد للخميس (2 ظهرا إلي 8 مساءا)</p>
+            </div>
+            <div class="social">
+                <img src="Photos/Whats.png" alt="">
+                <img src="Photos/phone.png" alt="">
+                <img src="Photos/email.png" alt="">
+            </div>
+        </div>
+        <h6> </h6>
+    </footer>
+</body>
+
+</html>
